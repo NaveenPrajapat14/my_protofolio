@@ -1,0 +1,311 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?semt=ais_hybrid&w=740');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+div label {
+  font-size: 24px;
+  color: black;
+}
+
+input {
+  margin: 18px;
+  padding: 10px;
+  align-items: flex-end;
+  border-color: black;
+  border-radius: 7px;
+
+}
+
+.tables {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 150px; /* Optional: adds space between the two tables */
+  margin: 20px auto;
+  flex-wrap: wrap; /* Responsive layout for smaller screens */
+}
+
+.table1{
+  width: 575px;
+  
+}
+ .table1 p{
+  /* color: rgb(75, 178, 178); */
+  color: aliceblue;
+  font-size: 24px;
+ }
+
+.table2 {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  width: 520px;            /* reduce width to match image better */
+  height: 520px;           /* fixed height to vertically center image */
+  /* background-color: white;
+  border-radius: 50px;
+  border: 5px solid rgb(255, 0, 247); */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
+
+.table2 img {
+  height: 510px;
+  width: 450px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgb(135, 129, 221);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 100px; */
+}
+
+
+
+
+.table1 h1{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #00abff;
+  color: white;
+  text-decoration-thickness: 7px;
+  text-shadow: 3px 2px 4px #C62828;
+
+}
+
+.table1 p strong{
+    text-transform: uppercase;
+    color: aqua;
+}
+.table1 table td{
+  columns: 1;
+  color: aqua;
+  column-gap: 30px;
+  font-size: 28px;
+}
+
+
+
+.education {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.education h2 {
+  font-size: 36px;
+  color: #ffb300;
+  margin-bottom: 30px;
+}
+
+.edu-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.edu-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: white;
+}
+
+.edu-content .degree {
+  color: #6fffe9;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.edu-content .branch {
+  color: #dcdcdc;
+  margin: 5px 0;
+}
+
+.edu-content .location {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.edu-content .year {
+  color: #ffb300;
+  font-weight: 600;
+}
+
+.skills h2{
+    color: #ffb300;
+    font-size: 28px;
+    
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px;
+}
+
+.skill {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+.awards {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.awards h2 {
+  font-size: 36px;
+  color: #ffb300;
+  margin-bottom: 30px;
+}
+
+.awa-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+
+.awa-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: white;
+}
+
+.awa-content .degree {
+  color: #6fffe9;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.awa-content .branch {
+  color: #dcdcdc;
+  margin: 5px 0;
+}
+
+.awa-content .location {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.awa-content .year {
+  color: #ffb300;
+  font-weight: 600;
+}
+
+
+
+ /* .contact h3{
+    font-size: 36px;
+    color: #ffb300;
+    align-items: center;
+}
+
+.contact{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.app-name img{
+    width: 40px;
+    height: 40px;
+}
+
+.app{
+    
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+ .app-name a{
+    
+    background-color: white;
+} */
+
+.contact {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 36px;
+  color: #ffb300;
+  margin-bottom: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.app-name {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.app-name img {
+  width: 35px;
+  height: 35px;
+}
+
+.app-name a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.app-name a:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
